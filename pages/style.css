@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header .small-head {
+    padding: 0px;
+    margin: 12px 18px 0px 18px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header .small-head h3 {
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+}
+
+header .page-head {
+    background-color: yellow;
+    border: 3px solid yellow;
+    padding: 0;
+    margin: 0px 18px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header .page-head h2 {
+    margin: 0px 12px;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+header .page-head button {
+    margin: 0px 12px;
+    width: 32px;
+    height: 32px;
+    background-color: crimson;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 28px;
+    border: none;
+    
+}
+
+.world-economics {
+    margin: 12px 18px 0px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.world-economics .txt-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Nunito Sans', sans-serif;
+} 
+
+.world-economics .txt-sec .txt-head h1 {
+    font-size: 68px;
+    font-weight: 500;
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 0.3rem;
+}
+
+.world-economics .txt-sec .para-sec {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.world-economics .txt-sec .para-sec .sub-txt1 {
+    margin: 0px 20px 0px 0px;
+    width: 450px;
+    height: 400px;
+    text-align: justify;
+}
+
+.world-economics .txt-sec .para-sec .sub-txt1 p {
+    margin: 0px;
+}
+
+.world-economics .txt-sec .para-sec .sub-txt2 {
+    margin: 0px;
+    width: 450px;
+    height: 400px;
+    text-align: justify;
+}
+.world-economics .txt-sec .para-sec .sub-txt2 h2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.world-economics .txt-sec .para-sec .sub-txt2 p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.world-economics .img-sec {
+    width: 30%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.world-economics .img-sec div {
+    width: 550px;
+    height: 350px;
+    background-color: #999;
+    position: relative;
+    right: 100px; 
+}
+
+.world-economics .img-sec h3 {
+    width: 500px;
+    margin: 3px;
+    padding: 15px 0px;
+    line-height: 23px;
+    font-style: italic;
+    position: relative;
+    right: 80px; 
+    color: crimson;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.world-economics .img-sec h3 strong {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.about-economics {
+    margin: 12px 18px 0px 18px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.about-economics .txt-sec {
+    width: 40%;
+    text-align: justify;
+}
+
+.about-economics .txt-sec h2 {
+    margin-bottom: 0px;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.about-economics .txt-sec p {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.about-economics .img-sec {
+    width: 60%;
+}
+
+.about-economics .img-sec div {
+    width: 98%;
+    height: 195px;
+    margin: 45px 0px 0px 25px;
+    background-color: #999;
+}
+
+footer {
+    margin: 12px 18px 0px 18px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+footer .txt-1 {
+    background-color: yellow;
+    margin:0px 20px 5px 0px;
+    text-align: center;
+    width: 60%; 
+}
+
+footer .txt-1 h2 {
+    margin-bottom: 0px;
+    color: crimson;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+footer .txt-1 p {
+    padding: 12px 14px;
+    margin-top: 0px;
+    font-style: italic;
+    text-align: justify;
+}
+
+footer .txt-2 {
+    width: 40%;
+    margin:0px 20px 5px 0px;
+}
+
+footer .txt-2 h2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 32px;
+}
+
+footer .txt-2 p {
+    text-align: justify;
+    margin-top: 0px;
+}
+
+footer .txt-3 {
+    width: 40%;
+    margin-top: 0px;
+    text-align: justify;
+}
+
+footer .txt-3 p {
+    margin-top: 0px;
+}
