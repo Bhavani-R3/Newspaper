@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header .small-head {
+    padding: 0px;
+    margin: 12px 18px 0px 18px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header .small-head h3 {
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+}
+
+header .page-head {
+    background-color: yellow;
+    border: 3px solid yellow;
+    padding: 0;
+    margin: 0px 18px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header .page-head h2 {
+    margin: 0px 12px;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+header .page-head button {
+    margin: 0px 12px;
+    width: 32px;
+    height: 32px;
+    background-color: crimson;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 28px;
+    border: none;
+}
+
+.main-head {
+    height: 350px;
+    margin: 0px 18px;
+    background-color: #999;
+}
+
+.main-head .img-head h1 {
+    text-align: center;
+    font-size: 75px;
+    font-weight: 500;
+    padding-top: 22px;
+    margin-top: 20px;
+}
+
+.text-sec {
+    margin: 12px 18px 0px 18px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.text-sec div {
+    text-align: justify;
+    width: 32%;
+}
+
+.text-sec .para-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-sec .para-2 h2 {
+    margin: 0px 25px 3px 25px;
+    padding: 0px 22px;
+    color: crimson;
+    font-style: italic;
+}
+
+.text-sec .para-2 h2 strong {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.text-sec .para-2 p {
+    margin-top: 0px;
+}
+
+.text-sec .para-3 div {
+    width: 100%;
+    height: 250px;
+    background-color: #999;
+}
+
+footer {
+    margin: 12px 18px 0px 18px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+footer .foot-1 {
+    width: 66%;
+    border: 5px solid crimson;
+    padding: 0px 14px;
+}
+
+footer .foot-1 h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: crimson;
+    margin-bottom: 0px;
+}
+
+footer .foot-1 p {
+    padding-top: 0px;
+    font-style: italic;
+    text-align: justify;
+}
+
+footer .foot-2 {
+    width: 32%;
+}
+
+footer .foot-2 p {
+    margin-top: 0px;
+    text-align: justify;
+}
